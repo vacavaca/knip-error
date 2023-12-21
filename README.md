@@ -12,7 +12,7 @@ packages
           |-# foo(): void
   |-other ............... (@kniprepo/other)
     |- src
-      |- index.ts ....... (entrypoint, imports { test } from '@kniprepo/one/inner' )
+      |- index.ts ....... (entrypoint: import { test } from '@kniprepro/one/inner')
 
 ```
 
