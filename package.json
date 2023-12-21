@@ -1,0 +1,17 @@
+{
+  "name": "kniprepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "knip": "knip"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "knip": "^3.8.4",
+    "typescript": "^5.3.3"
+  }
+}

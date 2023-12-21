@@ -1,0 +1,16 @@
+{
+  "name": "@kniprepro/other",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@kniprepro/one": "^1.0.0"
+  }
+}

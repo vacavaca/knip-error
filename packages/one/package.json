@@ -1,0 +1,21 @@
+{
+  "name": "@kniprepro/one",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    "./inner": "./build/inner/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "inner": [
+        "./build/inner/index.d.ts"
+      ]
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
